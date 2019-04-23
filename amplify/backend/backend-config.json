@@ -1,0 +1,23 @@
+{
+	"api": {
+		"awsapplication": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	},
+	"auth": {
+		"cognitob00756d2": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"AndroidAuth": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
